@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: beige;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            padding: 20px;
+            gap: 20px;
+        }
+        .main-article {
+            flex: 60%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .sidebar .box {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Kisah</h1>
+    </header>
+    <div class="container" style="display: flex;">
+        <div class="main-article">
+            <h2>My Kisah</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae enim iure in numquam voluptatibus</p>
+        </div>
+        <div class="sidebar">
+            <div class="box">Kisah 1</div>
+            <div class="box">Kisah 2</div>
+            <div class="box">Kisah 3</div>
+        </div>
+    </div>
+</body>
+</html>
